@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_comb2.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sheferna <sheferna@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: sheferna <sheferna@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/08 10:16:58 by sheferna          #+#    #+#             */
-/*   Updated: 2023/07/08 10:17:05 by sheferna         ###   ########.fr       */
+/*   Created: 2023/07/17 10:38:15 by sheferna          #+#    #+#             */
+/*   Updated: 2023/07/17 10:38:29 by sheferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,3 +45,10 @@ void	ft_print_comb2(void)
 		a++;
 	}
 }
+
+/*
+int	main(void)
+{
+	ft_print_comb2();
+	return (0);
+}*/

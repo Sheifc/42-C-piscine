@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_alphabet.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sheferna <sheferna@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: sheferna <sheferna@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/07 13:54:20 by sheferna          #+#    #+#             */
-/*   Updated: 2023/07/07 13:54:51 by sheferna         ###   ########.fr       */
+/*   Created: 2023/07/17 10:19:40 by sheferna          #+#    #+#             */
+/*   Updated: 2023/07/17 10:20:19 by sheferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,10 @@ void	ft_print_alphabet(void)
 		letra++;
 	}	
 }
+
+/*
+int	main(void)
+{
+	ft_print_alphabet();
+	return (0);
+}*/

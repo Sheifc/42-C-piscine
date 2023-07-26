@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sheferna <sheferna@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: sheferna <sheferna@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/08 10:17:29 by sheferna          #+#    #+#             */
-/*   Updated: 2023/07/08 14:01:54 by sheferna         ###   ########.fr       */
+/*   Created: 2023/07/17 10:38:50 by sheferna          #+#    #+#             */
+/*   Updated: 2023/07/18 20:27:36 by sheferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,12 @@ void	ft_putchar(char c)
 
 void	ft_putnbr(int nb)
 {
+	if (nb == -2147483648)
+	{
+		ft_putchar('-');
+		ft_putchar('2');
+		nb = 147483648;
+	}
 	if (nb < 0)
 	{
 		ft_putchar('-');
@@ -30,5 +36,11 @@ void	ft_putnbr(int nb)
 		nb = nb % 10;
 	}
 	if (nb < 10)
-		ft_putchar(nb + 48);
+		ft_putchar(nb + '0');
 }
+/*
+int	main(void)
+{
+	ft_putnbr(-2147483648);
+	return (0);
+}*/

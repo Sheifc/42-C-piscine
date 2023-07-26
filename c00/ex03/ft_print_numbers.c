@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sheferna <sheferna@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: sheferna <sheferna@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/07 14:05:38 by sheferna          #+#    #+#             */
-/*   Updated: 2023/07/08 10:05:32 by sheferna         ###   ########.fr       */
+/*   Created: 2023/07/17 10:22:24 by sheferna          #+#    #+#             */
+/*   Updated: 2023/07/17 10:44:50 by sheferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,17 @@ void	ft_print_numbers(void)
 {
 	char	digit;
 
-	digit = 48;
-	while (digit <= 57)
+	digit = '0';
+	while (digit <= '9')
 	{
 		write(1, &digit, 1);
 		digit++;
-	}	
+	}
 }
+
+/*
+int	main(void)
+{
+	ft_print_numbers();
+	return (0);
+}*/

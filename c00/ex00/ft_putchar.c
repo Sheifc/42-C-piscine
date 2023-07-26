@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sheferna <sheferna@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: sheferna <sheferna@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/07 13:36:22 by sheferna          #+#    #+#             */
-/*   Updated: 2023/07/07 13:37:21 by sheferna         ###   ########.fr       */
+/*   Created: 2023/07/17 10:19:10 by sheferna          #+#    #+#             */
+/*   Updated: 2023/07/17 10:44:28 by sheferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,3 +16,14 @@ void	ft_putchar(char c)
 {
 	write(1, &c, 1);
 }
+
+/*
+int	main(void)
+{
+	char	c;
+
+	c = 'z';
+	ft_putchar(c);
+	return (0);
+}
+*/

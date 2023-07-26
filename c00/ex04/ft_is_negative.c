@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sheferna <sheferna@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: sheferna <sheferna@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/07/08 10:13:59 by sheferna          #+#    #+#             */
-/*   Updated: 2023/07/08 10:14:08 by sheferna         ###   ########.fr       */
+/*   Created: 2023/07/17 10:36:18 by sheferna          #+#    #+#             */
+/*   Updated: 2023/07/17 10:44:54 by sheferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,12 @@ void	ft_is_negative(int n)
 		write(1, &positivo, 1);
 	}
 }
+
+/*
+int	main(void)
+{
+	ft_is_negative(-1);
+	ft_is_negative(2);
+	ft_is_negative(0);
+	return (0);
+}*/

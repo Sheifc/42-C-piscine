@@ -3,21 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_combn.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sheferna <sheferna@student.42malaga.com>   +#+  +:+       +#+        */
+/*   By: sheferna <sheferna@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/08 10:18:13 by sheferna          #+#    #+#             */
-/*   Updated: 2023/07/08 10:18:44 by sheferna         ###   ########.fr       */
+/*   Updated: 2023/07/17 10:46:18 by sheferna         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putchar(n)
+void	ft_putchar(n)
 {
-    write(1, &n, 1);
+	write(1, &n, 1);
 }
 
-void ft_print_combn(int n)
-{ 
-       
+void	ft_print_combn(int n)
+{
 }
