@@ -1,1 +1,8 @@
-
+Exercise 02: ft_print_reverse_alphabet 
+Files to deliver: ft_print_reverse_alphabet.c
+Delivery directory: ex02/ Authorized functions: write
+-----------------------------------------------------
+• Write a function that displays the lowercase alphabet on a single line in descending order, starting from the letter "z".
+• The prototype of the function should be as follows:
+void ft_print_reverse_alphabet(void);
+-----------------------------------------------------
