@@ -1,0 +1,14 @@
+Exercise 06: ft_print_comb2 
+Files to deliver: ft_print_comb2.c
+Delivery directory: ex06/ 
+Authorized functions: write
+----------------------------------
+• Write a function that displays all possible combinations of two numbers (XX XX) between 0 and 99, in ascending order.
+• The result is something like this:
+
+$>./a.out | cat -e
+00 01, 00 02, 00 03, 00 04, 00 05, ..., 00 99, 01 02, ..., 97 99, 98 99$>
+
+• The prototype of the function should be as follows:
+void ft_print_comb2(void);
+----------------------------------
