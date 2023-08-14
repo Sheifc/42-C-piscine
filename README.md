@@ -72,6 +72,10 @@ NANO steps on terminal:
 `Enter`   
 `Control x`  
 
+VISUAL STUDIO CODE: 
+------------------
+Can be used but take into account that in the exam you only will have a terminal to perform the exercises.  
+
 Tips:  
 -----
 Use this command to list all folders and files to check the spelling of file names before evaluation: `ls */*`  
