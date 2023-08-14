@@ -33,6 +33,8 @@ On terminal, clone the repository with the command git clone:
 On terminal: use the commands `cd` (change directory) to move towards the directory and `mkdir` to create the delivery directory.
 
 Example:
+
+mkdir c00
 cd c00  
 mkdir ex00  
 cd ex00  
