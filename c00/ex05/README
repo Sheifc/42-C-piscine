@@ -1,1 +1,16 @@
+Exercise 05: ft_print_comb
+Files to deliver: ft_print_comb.c
+Delivery directory: ex05/ 
+Authorized functions: write
+---------------------------------
+• Write a function that displays, in ascending order, all possible combinations of three distinct digits in ascending order - yes, repetition is voluntary.
+• The result is something like this:
 
+$>./a.out | cat -e
+012, 013, 014, 015, 016, 017, 018, 019, 023, ..., 789$>
+
+• 987 is not included because 789 already exists
+• 999 is not included because this number does not exclusively contain distinct digits
+• The prototype of the function should be as follows:
+void ft_print_comb(void);
+----------------------------------
