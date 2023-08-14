@@ -1,1 +1,9 @@
-
+Exercise 01: ft_print_alphabet
+Delivery directory: ex01/ 
+Files to deliver: ft_print_alphabet.c 
+Authorized functions: write
+-------------------------------------
+• Write a function that displays the lowercase alphabet on a single line in ascending order, starting from the letter "a".
+• The prototype of the function should be as follows:
+void ft_print_alphabet(void);
+-------------------------------------
