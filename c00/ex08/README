@@ -1,1 +1,15 @@
+Exercise 08: ft_print_combn 
+Files to deliver: ft_print_combn.c
+Delivery directory: ex08/ 
+Authorized functions: write
+----------------------------------
+• Write a function that displays all combinations of n digits in ascending order.
+• n will satisfy: 0 < n < 10.
+• If n = 2, the result is something like this:
 
+$>./a.out | cat -e
+01, 02, 03, ..., 09, 12, ..., 79, 89$>
+
+• The prototype of the function should be as follows:
+void ft_print_combn(int n);
+-----------------------------------
