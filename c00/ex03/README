@@ -1,1 +1,9 @@
-
+Exercise 03: ft_print_numbers
+Files to deliver: ft_print_numbers.c
+Delivery directory: ex03/ 
+Authorized functions: write
+------------------------------------
+• Write a function that displays all the digits on a single line in ascending order.
+• The prototype of the function should be as follows:
+void ft_print_numbers(void);
+------------------------------------
