@@ -62,11 +62,11 @@ i : insert mode (to be able to write or edit on the file)
 
 NANO steps on terminal:
 -----------------------
-nano filename
+`nano filename`  
 (write anything you need)
-control 0
-Enter
-Control x
+`control 0` 
+`Enter`   
+`Control x`  
 
 Tips:  
 -----
