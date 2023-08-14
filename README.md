@@ -1,6 +1,6 @@
 # C programming 
 
-This repo includes practical test and programming challenges performed at 42 school as part of the c piscine. 
+This repo includes practical test and programming challenges performed at `42 School` as part of the `C piscine`. 
 
 From c00 to c06 are the modules performed and evaluated correctly. 
 
