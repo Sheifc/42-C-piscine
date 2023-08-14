@@ -11,4 +11,4 @@ To display the character, you will need to use the write function as follows.
 write(1, &c, 1);
 -----------------------------
 
-#include <unistd.h> : this includes the library which is needed to use the function write requested. 
+#include <unistd.h> : this includes the library `unistd.h` which is needed to use the function write requested. 
