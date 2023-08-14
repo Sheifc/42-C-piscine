@@ -1,1 +1,9 @@
-
+Exercise 04: ft_is_negative
+Files to deliver: ft_is_negative.c
+Delivery directory: ex04/ 
+Authorized functions: write
+-----------------------------------
+• Write a function that displays "N" or "P" depending on the sign of the integer used as a parameter. If n is negative, it shows "N". If n is positive or zero, it shows "P".
+• The prototype of the function should be as follows:
+void ft_is_negative(int n);
+-----------------------------------
