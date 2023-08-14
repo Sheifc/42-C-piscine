@@ -34,7 +34,7 @@ On terminal: use the commands `cd` (change directory) to move towards the direct
 
 Example:
 
-mkdir c00
+mkdir c00  
 cd c00  
 mkdir ex00  
 cd ex00  
