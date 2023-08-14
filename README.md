@@ -34,10 +34,10 @@ On terminal: use the commands `cd` (change directory) to move towards the direct
 
 Example:
 
-mkdir c00  
-cd c00  
-mkdir ex00  
-cd ex00  
+`mkdir c00`  
+`cd c00`  
+`mkdir ex00`  
+`cd ex00`  
 
 Once inside, create the requested file with vim or nano editor. It's up to you to choose the one you like more.
 
