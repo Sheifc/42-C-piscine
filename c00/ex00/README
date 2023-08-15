@@ -9,7 +9,7 @@ void ft_putchar(char c);
 
 To display the character, you will need to use the write function as follows.
 write(1, &c, 1);
------------------------------
+------------------------------
 
 #include <unistd.h> : this includes the library `unistd.h` which is needed to use the function write requested. 
 
@@ -23,3 +23,11 @@ It will be used always 1 at the C piscine.
 A pointer to a buffer of at least nbytes bytes, which will be written to the file. It means, a pointer to the data you want to write. 
 -Third parameter: 
 Number of bytes to write. If smaller than the provided buffer, the output is truncated. 
+
+To compile, use the flags as follows: 
+-------------------------------------
+cc -Wall -Wextra -Werror ft_putchar.c
+
+Make sure the file follows the norm: 
+------------------------------------
+norminette -R
