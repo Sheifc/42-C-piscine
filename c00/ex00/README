@@ -13,6 +13,10 @@ write(1, &c, 1);
 
 #include <unistd.h> : this includes the library `unistd.h` which is needed to use the function write requested. 
 
+Prototype:
+`void` means that the output is void, nothing. 
+`char c` indicates that the input of the function is a variable of type char (character). 
+
 The write function has 3 parameters: 
 -First parameter: 
 0 : standard input
