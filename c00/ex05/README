@@ -18,3 +18,7 @@ void ft_print_comb(void);
 Prototype: 
 First void: output of the function is void, nothing. 
 Second void: input of the function is void, nothing. 
+
+We define 3 variables (a, b, c) of int type. Each one will be representing the 3 digits to be printed. 
+
+a is initialised to 0. 
