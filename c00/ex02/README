@@ -8,5 +8,9 @@ Authorized functions: write
 void ft_print_reverse_alphabet(void);
 -----------------------------------------------------
 
+Prototype: 
+First void: output of the function is void, nothing. 
+Second void: input of the function is void, nothing. 
+
 The difference with the previous code (exercise 01): 
 `letter--` : reduce 1 value to the letter variable wich starts in 'z' to make sure the alphabet is printed in reverse order.
