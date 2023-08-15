@@ -10,6 +10,10 @@ void ft_print_alphabet(void);
 
 Pay attention to what is requested, only one file to deliver, a function, what means no main is allowed and only write function is permitted. 
 
+Prototype: 
+First void: output of the function is void, nothing. 
+Second void: input of the function is void, nothing. 
+
 For this function, we need the library unistd to be included. 
 
 A function to print the alphabet can be coded in many ways.   
