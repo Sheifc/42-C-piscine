@@ -17,4 +17,4 @@ On this occasion if and else statements are used.
 
 If condition is true (n < 0), print `N`. 
 
-Anything else, print `P`.
+Anything else (if it is false), print `P`.
