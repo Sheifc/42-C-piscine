@@ -9,6 +9,12 @@ If n is negative, it shows "N". If n is positive or zero, it shows "P".
 void ft_is_negative(int n);
 -----------------------------------
 
+Prototype: 
+`void`: output of the function is void, nothing. 
+`int n`: input of the function is int type (integer). 
+
 On this occasion if and else statements are used. 
 
-If condition is true, print 
+If condition is true (n < 0), print `N`. 
+
+Anything else, print `P`.
