@@ -8,5 +8,5 @@ Authorized functions: write
 void ft_print_reverse_alphabet(void);
 -----------------------------------------------------
 
-The difference with the previous code is that here: 
-`letter` : reduce 1 value to the letter variable wich starts in 'z' to make sure the alphabet is printed in reverse order.
+The difference with the previous code (exercise 01): 
+`letter--` : reduce 1 value to the letter variable wich starts in 'z' to make sure the alphabet is printed in reverse order.
