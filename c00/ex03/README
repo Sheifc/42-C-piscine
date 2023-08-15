@@ -8,4 +8,8 @@ Authorized functions: write
 void ft_print_numbers(void);
 ------------------------------------
 
+Prototype: 
+First void: output of the function is void, nothing. 
+Second void: input of the function is void, nothing. 
+
 Same code than exercise 01.
