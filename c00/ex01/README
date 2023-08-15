@@ -12,9 +12,11 @@ Pay attention to what is requested, only one file to deliver, a function, what m
 
 For this function, we need the library unistd to be included. 
 
-A function to print the alphabet can be coded in many ways. 
-In this code, a char variable called `letter`is used to iterate in a while loop. 
-The char variable is initialised with the first value 'a'. 
+A function to print the alphabet can be coded in many ways.   
+While loops are used to make an action while a condition is true. 
+
+1. In this code, a char variable called `letter`is used to iterate within the while loop. 
+2. `letter` is initialised with the first value to print 'a'. 
 It is written in single quotes to refer the ASCII value of `a`, in this way, we make sure the `a` value in ASCII will be interpreted by the computer.
-We initiate the while loop with the condition letter <= 'z' to set up the last letter to be printed. 
-letter++ : one value is added to the variable letter to print the next letter of the alphabet.
+3. letter <= 'z' : We initiate the while loop with this condition indicating the last letter to be printed. 
+4. letter++ : one value is added to the variable letter to print the next letter of the alphabet.
