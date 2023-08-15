@@ -19,3 +19,7 @@ It's important to ensure that the buffer you provide is large enough to accommod
 
 The `write` function returns the number of bytes actually written to the file. 
 If the return value is negative, it usually indicates an error, and you can check the value of the global `errno` variable to determine the specific error.
+
+# Very important: 
+
+At the C piscine printf is not allowed therefore write should be used in all cases, make sure you print arrays in a while loop with write. 
