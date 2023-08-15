@@ -7,3 +7,5 @@ Authorized functions: write
 • The prototype of the function should be as follows:
 void ft_print_alphabet(void);
 -------------------------------------
+
+Pay attention to what is requested, only one file to deliver, a function, what means no main is allowed and only write function is permitted. 
