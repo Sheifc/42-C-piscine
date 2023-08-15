@@ -20,4 +20,6 @@ The write function has 3 parameters:
 2 : standard error
 It will be used always 1 at the C piscine. 
 -Second parameter: 
-A pointer to a buffer of at least nbytes bytes, which will be written to the file. 
+A pointer to a buffer of at least nbytes bytes, which will be written to the file. It means, a pointer to the data you want to write. 
+-Third parameter: 
+Number of bytes to write. If smaller than the provided buffer, the output is truncated. 
