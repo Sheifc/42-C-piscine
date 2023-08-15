@@ -12,3 +12,12 @@ write(1, &c, 1);
 -----------------------------
 
 #include <unistd.h> : this includes the library `unistd.h` which is needed to use the function write requested. 
+
+The write function has 3 parameters: 
+-First parameter: 
+0 : standard input
+1 : standard output
+2 : standard error
+It will be used always 1 at the C piscine. 
+-Second parameter: 
+A pointer to a buffer of at least nbytes bytes, which will be written to the file. 
