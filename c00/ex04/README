@@ -8,3 +8,7 @@ If n is negative, it shows "N". If n is positive or zero, it shows "P".
 • The prototype of the function should be as follows:
 void ft_is_negative(int n);
 -----------------------------------
+
+On this occasion if and else statements are used. 
+
+If condition is true, print 
