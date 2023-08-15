@@ -20,6 +20,14 @@ Pay attention to the delivery directory and type of file requested, it is not al
 In that case, it will be evaluated with 0.  
 Each file delivered must include the 42 header and shouldn't contain comments. Exceptionally here mains have been provided to check how the funtions work. 
 
+To compile, use the flags as follows: 
+-------------------------------------
+cc -Wall -Wextra -Werror ft_name.c
+
+Make sure the file follows the norm: 
+------------------------------------
+norminette -R
+
 First steps for all projects:
 -----------------------------
 Copy the link from the git repository of the project  
