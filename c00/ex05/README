@@ -14,3 +14,7 @@ $>./a.out | cat -e
 • The prototype of the function should be as follows:
 void ft_print_comb(void);
 ----------------------------------
+
+Prototype: 
+First void: output of the function is void, nothing. 
+Second void: input of the function is void, nothing. 
