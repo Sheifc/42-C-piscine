@@ -7,3 +7,5 @@ Authorized functions: write
 • The prototype of the function should be as follows:
 void ft_print_numbers(void);
 ------------------------------------
+
+Same code than exercise 01.
