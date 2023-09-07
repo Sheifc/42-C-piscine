@@ -15,6 +15,16 @@ void ft_print_comb2(void);
 
 Code comments: 
 --------------
+• Logic: 
+--------
+The logic of this exercise is based on breaking down the two numbers we need to print, separated by a space, 
+keeping the first calculation with the first digit of the first number and the second digit with the second calculation.
+
+For example, say we want to print 42, when we perform integer division by 10, the result is 4; we print this first digit. 
+Then, when we take the remainder of 42 when divided by 10, we get 2, and we print it. 
+
+Voila, we have printed the desired number.
+
 • ASCII conversion: 
 -------------------
 `ft` function: when ft_putchar(a / 10 + '0') is used, what we are doing by adding '0', is to convert the number of the 
