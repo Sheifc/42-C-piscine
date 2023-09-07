@@ -22,3 +22,13 @@ Second void: input of the function is void, nothing.
 We define 3 variables (a, b, c) of int type. Each one will be representing the 3 digits to be printed. 
 
 a is initialised to 0. 
+
+Code comments: 
+--------------
+With this line a comma is added only when the values of a, b, and c are not the maximum values that can reach. 
+
+These maximum values are provided by the exercise. 
+~~~
+if (!(a == '7' && b == '8' && c == '9'))
+					write(1, ", ", 2);
+~~~
