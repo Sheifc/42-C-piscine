@@ -12,3 +12,13 @@ $>./a.out | cat -e
 • The prototype of the function should be as follows:
 void ft_print_comb2(void);
 ----------------------------------
+
+Code comments: 
+--------------
+• ASCII conversion: 
+-------------------
+`ft` function: when ft_putchar(a / 10 + '0') is used, what we are doing adding '0' is to convert the number of the 
+resulting division (a/10) to the value of that number in ASCII. When 0 is in quotes like this, the computer interprets
+the value of that number in ASCII which in this case is 48. ASCII table is included in this project to check this. 
+Therefore, when you add the number resulting by the division of (a/10) to 48, let's say a=10, then 10/10=1, so, 48+1=49
+which is the value in ASCII of number 1. 
