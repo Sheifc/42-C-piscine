@@ -25,7 +25,7 @@ a is initialised to 0.
 
 Code comments: 
 --------------
-With this line a comma is added only when the values of a, b, and c are not the maximum values that can reach. 
+With this line of code a comma is added only when the values of a, b, and c are not the maximum values that can reach. 
 
 These maximum values are provided by the exercise. 
 ~~~
