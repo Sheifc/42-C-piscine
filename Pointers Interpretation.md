@@ -1,6 +1,6 @@
 # Pointers Interpretation 
 
-Resource: https://www.youtube.com/watch?v=2ybLD6_2gKM
+Source: https://www.youtube.com/watch?v=2ybLD6_2gKM
 
 int	x = 4;
 
