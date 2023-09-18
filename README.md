@@ -18,9 +18,8 @@ Very important:
 ---------------
 - Pay attention to the delivery directory and type of file requested, it is not allowed to send other files or wrong directory.   
 In that case, it will be evaluated with 0.
-- For loops are not allowed. 
+- For loops, comments in the code and the use of printf library are not allowed. 
 - Each file delivered must include the 42 header.
-- Comments in the code are not allowed. 
 - When a function is requested, a main cannot be included. Exceptionally, here mains have been provided to check how the functions work. 
 
 To compile, use the flags as follows: 
